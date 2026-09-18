@@ -1,0 +1,240 @@
+{
+  "markets": [
+    {
+      "id": "market-001",
+      "name": "Feira Conecta Recife 2026",
+      "companies": ["company-001", "company-002", "company-003", "company-004"],
+      "location": "location-001",
+      "categories": ["category-001", "category-002", "category-003", "category-004"],
+      "rewards": ["reward-001", "reward-002"],
+      "startDate": "2026-10-16",
+      "endDate": "2026-10-18",
+      "tracks": ["track-001", "track-002"],
+      "sponsorTiers": ["tier-001", "tier-002", "tier-003"],
+      "supporters": ["supporter-001", "supporter-002", "supporter-003"]
+    },
+    {
+      "id": "market-002",
+      "name": "Festival Criativo do Agreste",
+      "companies": ["company-005", "company-006", "company-007", "company-008"],
+      "location": "location-002",
+      "categories": ["category-005", "category-006", "category-007", "category-008"],
+      "rewards": ["reward-003"],
+      "startDate": "2026-11-07",
+      "endDate": "2026-11-08",
+      "tracks": ["track-003", "track-004"],
+      "sponsorTiers": ["tier-004", "tier-005"],
+      "supporters": ["supporter-004", "supporter-005"]
+    }
+  ],
+  "tracks": [
+    {
+      "id": "track-001",
+      "market": "market-001",
+      "name": "Negócios e Inovação",
+      "description": "Conteúdos sobre empreendedorismo, tecnologia e crescimento sustentável.",
+      "color": "#2563EB",
+      "scheduleItems": ["schedule-001", "schedule-002"]
+    },
+    {
+      "id": "track-002",
+      "market": "market-001",
+      "name": "Sabores de Pernambuco",
+      "description": "Experiências e conversas com produtores da gastronomia regional.",
+      "color": "#EA580C",
+      "scheduleItems": ["schedule-003", "schedule-004"]
+    },
+    {
+      "id": "track-003",
+      "market": "market-002",
+      "name": "Economia Criativa",
+      "description": "Encontros sobre design, artesanato e produção cultural.",
+      "color": "#7C3AED",
+      "scheduleItems": ["schedule-005", "schedule-006"]
+    },
+    {
+      "id": "track-004",
+      "market": "market-002",
+      "name": "Moda e Identidade",
+      "description": "Debates e oficinas sobre moda autoral e identidade regional.",
+      "color": "#DB2777",
+      "scheduleItems": ["schedule-007", "schedule-008"]
+    }
+  ],
+  "scheduleItems": [
+    {
+      "id": "schedule-001",
+      "track": "track-001",
+      "title": "Abertura: negócios que transformam territórios",
+      "description": "Painel de abertura sobre o impacto dos pequenos negócios na economia local.",
+      "speaker": "Helena Moura",
+      "location": "Auditório Principal",
+      "startAt": "2026-10-16T09:00:00-03:00",
+      "endAt": "2026-10-16T10:00:00-03:00"
+    },
+    {
+      "id": "schedule-002",
+      "track": "track-001",
+      "title": "Oficina de presença digital",
+      "description": "Atividade prática para melhorar a apresentação de produtos na internet.",
+      "speaker": "Rafael Lins",
+      "location": "Sala Mangue",
+      "startAt": "2026-10-17T14:00:00-03:00",
+      "endAt": "2026-10-17T16:00:00-03:00"
+    },
+    {
+      "id": "schedule-003",
+      "track": "track-002",
+      "title": "Do campo à xícara",
+      "description": "Conversa sobre produção, torra e consumo de cafés especiais.",
+      "speaker": "Joana Andrade",
+      "location": "Cozinha-Escola",
+      "startAt": "2026-10-16T11:00:00-03:00",
+      "endAt": "2026-10-16T12:00:00-03:00"
+    },
+    {
+      "id": "schedule-004",
+      "track": "track-002",
+      "title": "Degustação de sabores regionais",
+      "description": "Experiência guiada com produtos artesanais pernambucanos.",
+      "speaker": "Marcos Bezerra",
+      "location": "Espaço Gastronômico",
+      "startAt": "2026-10-18T15:00:00-03:00",
+      "endAt": "2026-10-18T16:30:00-03:00"
+    },
+    {
+      "id": "schedule-005",
+      "track": "track-003",
+      "title": "Criatividade como modelo de negócio",
+      "description": "Estratégias para transformar produção autoral em renda recorrente.",
+      "speaker": "Carla Nogueira",
+      "location": "Palco Mandacaru",
+      "startAt": "2026-11-07T10:00:00-03:00",
+      "endAt": "2026-11-07T11:00:00-03:00"
+    },
+    {
+      "id": "schedule-006",
+      "track": "track-003",
+      "title": "Fotografia de produtos com celular",
+      "description": "Oficina prática para criar imagens comerciais com recursos acessíveis.",
+      "speaker": "Diego Cavalcanti",
+      "location": "Sala Caroá",
+      "startAt": "2026-11-08T09:30:00-03:00",
+      "endAt": "2026-11-08T11:30:00-03:00"
+    },
+    {
+      "id": "schedule-007",
+      "track": "track-004",
+      "title": "Moda autoral e território",
+      "description": "Bate-papo sobre referências locais na criação de coleções.",
+      "speaker": "Lívia Barros",
+      "location": "Palco Mandacaru",
+      "startAt": "2026-11-07T14:00:00-03:00",
+      "endAt": "2026-11-07T15:00:00-03:00"
+    },
+    {
+      "id": "schedule-008",
+      "track": "track-004",
+      "title": "Desfile Novos Criadores",
+      "description": "Apresentação de peças desenvolvidas por marcas independentes do Agreste.",
+      "speaker": "Coletivo Fio da Terra",
+      "location": "Passarela Central",
+      "startAt": "2026-11-08T17:00:00-03:00",
+      "endAt": "2026-11-08T18:00:00-03:00"
+    }
+  ],
+  "sponsorTiers": [
+    { "id": "tier-001", "market": "market-001", "name": "Diamante", "description": "Cota principal do evento.", "benefits": ["Marca em destaque", "Estande premium", "Menção na abertura"], "displayOrder": 1 },
+    { "id": "tier-002", "market": "market-001", "name": "Ouro", "description": "Cota de grande visibilidade.", "benefits": ["Marca nos painéis", "Estande padrão"], "displayOrder": 2 },
+    { "id": "tier-003", "market": "market-001", "name": "Prata", "description": "Cota de apoio institucional.", "benefits": ["Marca no site", "Menção nas redes sociais"], "displayOrder": 3 },
+    { "id": "tier-004", "market": "market-002", "name": "Mandacaru", "description": "Cota principal do festival.", "benefits": ["Marca em destaque", "Naming de palco"], "displayOrder": 1 },
+    { "id": "tier-005", "market": "market-002", "name": "Caroá", "description": "Cota de incentivo cultural.", "benefits": ["Marca no site", "Estande padrão"], "displayOrder": 2 }
+  ],
+  "supporters": [
+    { "id": "supporter-001", "market": "market-001", "name": "Banco Aurora", "logo": "https://placehold.co/320x160/1e3a8a/ffffff?text=Banco+Aurora", "tier": "tier-001" },
+    { "id": "supporter-002", "market": "market-001", "name": "Rede Horizonte", "logo": "https://placehold.co/320x160/b45309/ffffff?text=Rede+Horizonte", "tier": "tier-002" },
+    { "id": "supporter-003", "market": "market-001", "name": "Instituto Capibaribe", "logo": "https://placehold.co/320x160/047857/ffffff?text=Instituto+Capibaribe", "tier": "tier-003" },
+    { "id": "supporter-004", "market": "market-002", "name": "Cooperativa Serra Viva", "logo": "https://placehold.co/320x160/7c2d12/ffffff?text=Serra+Viva", "tier": "tier-004" },
+    { "id": "supporter-005", "market": "market-002", "name": "Fundação Asa Branca", "logo": "https://placehold.co/320x160/6b21a8/ffffff?text=Asa+Branca", "tier": "tier-005" }
+  ],
+  "categories": [
+    { "id": "category-001", "name": "Alimentos e bebidas", "market": "market-001" },
+    { "id": "category-002", "name": "Bem-estar", "market": "market-001" },
+    { "id": "category-003", "name": "Tecnologia", "market": "market-001" },
+    { "id": "category-004", "name": "Sustentabilidade", "market": "market-001" },
+    { "id": "category-005", "name": "Artesanato", "market": "market-002" },
+    { "id": "category-006", "name": "Moda autoral", "market": "market-002" },
+    { "id": "category-007", "name": "Casa e decoração", "market": "market-002" },
+    { "id": "category-008", "name": "Cultura", "market": "market-002" }
+  ],
+  "locations": [
+    { "id": "location-001", "reference": "Pavilhão do Cais", "address": "Avenida Cais do Apolo, 250, Recife - PE", "latitude": -8.06151, "longitude": -34.87105 },
+    { "id": "location-002", "reference": "Centro Cultural do Agreste", "address": "Avenida das Feiras, 480, Caruaru - PE", "latitude": -8.28455, "longitude": -35.96997 },
+    { "id": "location-003", "reference": "Estande A01", "address": "Pavilhão do Cais, Setor A", "latitude": -8.06162, "longitude": -34.87121 },
+    { "id": "location-004", "reference": "Estande A08", "address": "Pavilhão do Cais, Setor A", "latitude": -8.0617, "longitude": -34.87133 },
+    { "id": "location-005", "reference": "Estande B03", "address": "Pavilhão do Cais, Setor B", "latitude": -8.06182, "longitude": -34.87108 },
+    { "id": "location-006", "reference": "Estande B11", "address": "Pavilhão do Cais, Setor B", "latitude": -8.06191, "longitude": -34.87092 },
+    { "id": "location-007", "reference": "Estande C02", "address": "Centro Cultural do Agreste, Setor C", "latitude": -8.28461, "longitude": -35.97012 },
+    { "id": "location-008", "reference": "Estande C07", "address": "Centro Cultural do Agreste, Setor C", "latitude": -8.28473, "longitude": -35.96985 },
+    { "id": "location-009", "reference": "Estande D04", "address": "Centro Cultural do Agreste, Setor D", "latitude": -8.28442, "longitude": -35.96972 },
+    { "id": "location-010", "reference": "Estande D09", "address": "Centro Cultural do Agreste, Setor D", "latitude": -8.28435, "longitude": -35.97006 }
+  ],
+  "companies": [
+    { "id": "company-001", "name": "Café da Serra", "description": "Cafés especiais produzidos em pequenas propriedades pernambucanas.", "cnpj": "12.345.678/0001-10", "market": "market-001", "subscription": "premium", "promotions": ["promotion-001"], "logo": "https://placehold.co/400x400/78350f/ffffff?text=Cafe+da+Serra", "segment": "Produtor local", "category": "category-001", "publicoAlvo": "Consumidores de cafés especiais", "phone": "+55 81 3333-1001", "email": "contato@cafedaserra.example", "location": "location-003" },
+    { "id": "company-002", "name": "Mel do Vale", "description": "Mel e derivados produzidos por apicultores familiares.", "cnpj": "23.456.789/0001-21", "market": "market-001", "subscription": "standard", "promotions": ["promotion-002"], "logo": "https://placehold.co/400x400/d97706/ffffff?text=Mel+do+Vale", "segment": "Apicultura", "category": "category-001", "publicoAlvo": "Famílias e lojas de produtos naturais", "phone": "+55 81 3333-1002", "email": "ola@meldovale.example", "location": "location-004" },
+    { "id": "company-003", "name": "Verde Vivo Cosméticos", "description": "Cosméticos vegetais com embalagens retornáveis.", "cnpj": "34.567.890/0001-32", "market": "market-001", "subscription": "premium", "promotions": ["promotion-003"], "logo": "https://placehold.co/400x400/15803d/ffffff?text=Verde+Vivo", "segment": "Cosméticos naturais", "category": "category-002", "publicoAlvo": "Pessoas interessadas em autocuidado sustentável", "phone": "+55 81 3333-1003", "email": "atendimento@verdevivo.example", "location": "location-005" },
+    { "id": "company-004", "name": "Circular Tech", "description": "Soluções simples de gestão para pequenos negócios.", "cnpj": "45.678.901/0001-43", "market": "market-001", "subscription": "standard", "promotions": ["promotion-004"], "logo": "https://placehold.co/400x400/1d4ed8/ffffff?text=Circular+Tech", "segment": "Tecnologia", "category": "category-003", "publicoAlvo": "Micro e pequenos empreendedores", "phone": "+55 81 3333-1004", "email": "comercial@circulartech.example", "location": "location-006" },
+    { "id": "company-005", "name": "Ateliê Raízes", "description": "Cerâmicas utilitárias inspiradas na cultura do Agreste.", "cnpj": "56.789.012/0001-54", "market": "market-002", "subscription": "premium", "promotions": ["promotion-005"], "logo": "https://placehold.co/400x400/9a3412/ffffff?text=Atelie+Raizes", "segment": "Cerâmica artesanal", "category": "category-005", "publicoAlvo": "Consumidores de peças artesanais", "phone": "+55 81 3333-1005", "email": "contato@atelieraizes.example", "location": "location-007" },
+    { "id": "company-006", "name": "Fio da Terra", "description": "Moda autoral produzida com fibras naturais e mão de obra local.", "cnpj": "67.890.123/0001-65", "market": "market-002", "subscription": "premium", "promotions": ["promotion-006"], "logo": "https://placehold.co/400x400/86198f/ffffff?text=Fio+da+Terra", "segment": "Moda sustentável", "category": "category-006", "publicoAlvo": "Pessoas interessadas em moda ética", "phone": "+55 81 3333-1006", "email": "vendas@fiodaterra.example", "location": "location-008" },
+    { "id": "company-007", "name": "Lume Design", "description": "Luminárias e objetos decorativos feitos com materiais reaproveitados.", "cnpj": "78.901.234/0001-76", "market": "market-002", "subscription": "standard", "promotions": ["promotion-007"], "logo": "https://placehold.co/400x400/b45309/ffffff?text=Lume+Design", "segment": "Design sustentável", "category": "category-007", "publicoAlvo": "Arquitetos e consumidores de decoração", "phone": "+55 81 3333-1007", "email": "estudio@lumedesign.example", "location": "location-009" },
+    { "id": "company-008", "name": "Cordel na Rua", "description": "Editora independente de cordéis e gravuras de artistas locais.", "cnpj": "89.012.345/0001-87", "market": "market-002", "subscription": "standard", "promotions": ["promotion-008"], "logo": "https://placehold.co/400x400/374151/ffffff?text=Cordel+na+Rua", "segment": "Produção cultural", "category": "category-008", "publicoAlvo": "Leitores, educadores e colecionadores", "phone": "+55 81 3333-1008", "email": "editorial@cordelnarua.example", "location": "location-010" }
+  ],
+  "products": [
+    { "id": "product-001", "code": "CAF-001", "name": "Café Especial 250 g", "company": "company-001", "category": "category-001", "segment": "Produtor local", "price": 24.9, "discount": 10, "quantity": 20 },
+    { "id": "product-002", "code": "MEL-001", "name": "Mel Silvestre 500 g", "company": "company-002", "category": "category-001", "segment": "Apicultura", "price": 32.5, "discount": 5, "quantity": 18 },
+    { "id": "product-003", "code": "COS-001", "name": "Sabonete de Argila Verde", "company": "company-003", "category": "category-002", "segment": "Cosméticos naturais", "price": 16.9, "discount": 0, "quantity": 35 },
+    { "id": "product-004", "code": "TEC-001", "name": "Plano Gestão Essencial", "company": "company-004", "category": "category-003", "segment": "Tecnologia", "price": 79.9, "discount": 15, "quantity": 50 },
+    { "id": "product-005", "code": "ART-001", "name": "Caneca de Cerâmica Mandacaru", "company": "company-005", "category": "category-005", "segment": "Cerâmica artesanal", "price": 42, "discount": 10, "quantity": 12 },
+    { "id": "product-006", "code": "MOD-001", "name": "Bolsa de Algodão Cru", "company": "company-006", "category": "category-006", "segment": "Moda sustentável", "price": 89.9, "discount": 5, "quantity": 10 },
+    { "id": "product-007", "code": "DEC-001", "name": "Luminária Cacto", "company": "company-007", "category": "category-007", "segment": "Design sustentável", "price": 129.9, "discount": 0, "quantity": 6 },
+    { "id": "product-008", "code": "CUL-001", "name": "Coleção Cordéis do Agreste", "company": "company-008", "category": "category-008", "segment": "Produção cultural", "price": 36, "discount": 10, "quantity": 25 }
+  ],
+  "promotions": [
+    { "id": "promotion-001", "company": "company-001", "product": "product-001", "coupon": "CAFE10", "discount": 10 },
+    { "id": "promotion-002", "company": "company-002", "product": "product-002", "coupon": "MEL5", "discount": 5 },
+    { "id": "promotion-003", "company": "company-003", "product": "product-003", "coupon": "VERDE10", "discount": 10 },
+    { "id": "promotion-004", "company": "company-004", "product": "product-004", "coupon": "CIRCULAR15", "discount": 15 },
+    { "id": "promotion-005", "company": "company-005", "product": "product-005", "coupon": "RAIZES10", "discount": 10 },
+    { "id": "promotion-006", "company": "company-006", "product": "product-006", "coupon": "FIO5", "discount": 5 },
+    { "id": "promotion-007", "company": "company-007", "product": "product-007", "coupon": "LUME10", "discount": 10 },
+    { "id": "promotion-008", "company": "company-008", "product": "product-008", "coupon": "CORDEL10", "discount": 10 }
+  ],
+  "clients": [
+    { "id": "client-001", "code": "CLI-001", "name": "Maria Silva", "description": "Visitante frequente de feiras gastronômicas.", "email": "maria.silva@example.com", "phone": "+55 81 99999-0001", "rewards": ["reward-001"] },
+    { "id": "client-002", "code": "CLI-002", "name": "João Santos", "description": "Designer interessado em produção autoral.", "email": "joao.santos@example.com", "phone": "+55 81 99999-0002", "rewards": ["reward-002", "reward-003"] },
+    { "id": "client-003", "code": "CLI-003", "name": "Ana Costa", "description": "Empreendedora do setor de alimentação.", "email": "ana.costa@example.com", "phone": "+55 81 99999-0003", "rewards": [] }
+  ],
+  "cartItems": [
+    { "id": "item-001", "product": "product-001", "quantity": 2, "totalPrice": 44.82 },
+    { "id": "item-002", "product": "product-002", "quantity": 1, "totalPrice": 30.88 },
+    { "id": "item-003", "product": "product-005", "quantity": 1, "totalPrice": 37.8 },
+    { "id": "item-004", "product": "product-006", "quantity": 2, "totalPrice": 170.81 }
+  ],
+  "carts": [
+    { "id": "cart-001", "items": ["item-001"], "company": "company-001", "coupon": "CAFE10", "client": "client-001", "payment": "payment-001", "totalPrice": 44.82, "createdAt": "2026-10-16T13:42:00-03:00" },
+    { "id": "cart-002", "items": ["item-002"], "company": "company-002", "coupon": "MEL5", "client": "client-003", "payment": "payment-002", "totalPrice": 30.88, "createdAt": "2026-10-17T11:20:00-03:00" },
+    { "id": "cart-003", "items": ["item-003"], "company": "company-005", "coupon": "RAIZES10", "client": "client-002", "payment": "payment-003", "totalPrice": 37.8, "createdAt": "2026-11-08T16:05:00-03:00" },
+    { "id": "cart-004", "items": ["item-004"], "company": "company-006", "coupon": "FIO5", "client": "client-002", "payment": "payment-004", "totalPrice": 170.81, "createdAt": "2026-11-08T16:12:00-03:00" }
+  ],
+  "payments": [
+    { "id": "payment-001", "type": "credit_card", "token": "tok_mock_visa_001", "installments": 1, "cart": "cart-001" },
+    { "id": "payment-002", "type": "pix", "token": "pix_mock_002", "installments": 1, "cart": "cart-002" },
+    { "id": "payment-003", "type": "bank_slip", "token": "boleto_mock_003", "installments": 1, "cart": "cart-003" },
+    { "id": "payment-004", "type": "credit_card", "token": "tok_mock_master_004", "installments": 2, "cart": "cart-004" }
+  ],
+  "rewards": [
+    { "id": "reward-001", "market": "market-001", "company": "company-001", "client": "client-001", "name": "Primeira compra", "description": "Cupom conquistado após a primeira compra no evento.", "coupon": "BEMVINDO5" },
+    { "id": "reward-002", "market": "market-001", "company": "company-003", "client": "client-002", "name": "Visitante sustentável", "description": "Benefício por visitar três negócios sustentáveis.", "coupon": "ECO10" },
+    { "id": "reward-003", "market": "market-002", "company": "company-006", "client": "client-002", "name": "Rota criativa", "description": "Cupom obtido ao completar a rota de economia criativa.", "coupon": "CRIATIVO10" }
+  ]
+}
