@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Encontre feiras, empresas e produtos locais em uma única vitrine digital.">
+  <title>Vitrine Feiras 2026</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body data-page="home">
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Navegação principal">
+      <a class="brand" href="index.html" aria-label="Vitrine Feiras - página inicial">
+        <span class="brand-mark" aria-hidden="true">v!</span>
+        <span class="brand-copy">Vitrine<small>Feiras 2026</small></span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Abrir menu">☰</button>
+      <div class="nav-links" id="nav-links">
+        <a href="index.html" aria-current="page">Feiras</a>
+        <a href="mapa.html">Mapa</a>
+        <a href="conta.html">Minha conta</a>
+        <a class="cart-link" href="carrinho.html">Carrinho <span class="cart-count">0</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero">
+      <div class="container">
+        <span class="eyebrow">Vitrine digital de feiras e eventos</span>
+        <h1>Toda a feira no seu <em>bolso</em></h1>
+        <p class="hero-copy">Descubra negócios locais, encontre estandes, aproveite promoções e compre diretamente de quem faz.</p>
+        <div class="hero-actions">
+          <a class="btn" href="#feiras">Explorar feiras ↓</a>
+          <a class="btn btn-secondary" href="mapa.html">Ver mapa</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker-track">4 feiras na plataforma ✦ 21 empresas na vitrine ✦ retirada no estande ou entrega ✦ cupons exclusivos da feira ✦ 4 feiras na plataforma ✦ 21 empresas na vitrine ✦ retirada no estande ou entrega ✦ cupons exclusivos da feira ✦</div>
+    </div>
+
+    <section class="stats" aria-label="Números da plataforma">
+      <div class="stat"><strong>4</strong><span>Feiras</span></div>
+      <div class="stat"><strong>21</strong><span>Empresas</span></div>
+      <div class="stat"><strong>29</strong><span>Produtos</span></div>
+      <div class="stat"><strong>8</strong><span>Promoções</span></div>
+    </section>
+
+    <section class="section" id="feiras">
+      <div class="container">
+        <div class="market-heading">
+          <h2>Feiras &amp; eventos</h2>
+          <div class="market-search-field">
+            <label class="sr-only" for="market-search">Buscar feira por nome</label>
+            <input class="input" id="market-search" name="search" type="search" placeholder="Buscar por nome">
+          </div>
+        </div>
+        <div class="category-chips" id="market-categories" aria-label="Filtrar por categoria">
+          <button class="category-chip is-active" type="button" data-category="" aria-pressed="true">Todas</button>
+          <button class="category-chip" type="button" data-category="Alimentos" aria-pressed="false">Alimentos</button>
+          <button class="category-chip" type="button" data-category="Bebidas" aria-pressed="false">Bebidas</button>
+          <button class="category-chip" type="button" data-category="Artesanato" aria-pressed="false">Artesanato</button>
+          <button class="category-chip" type="button" data-category="Moda" aria-pressed="false">Moda</button>
+          <button class="category-chip" type="button" data-category="Design" aria-pressed="false">Design</button>
+          <button class="category-chip" type="button" data-category="Casa" aria-pressed="false">Casa</button>
+          <button class="category-chip" type="button" data-category="Serviços" aria-pressed="false">Serviços</button>
+          <button class="category-chip" type="button" data-category="Tecnologia" aria-pressed="false">Tecnologia</button>
+          <button class="category-chip" type="button" data-category="Agro" aria-pressed="false">Agro</button>
+        </div>
+        <div class="card-grid market-grid" id="market-list" aria-live="polite"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <span>Vitrine Digital de Feiras — projeto acadêmico com dados fictícios.</span>
+      <span>Programação Web 2026.2</span>
+    </div>
+  </footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

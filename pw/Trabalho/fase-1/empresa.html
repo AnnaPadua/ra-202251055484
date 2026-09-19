@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Conheça a empresa e seus produtos disponíveis na feira.">
+  <title>Empresa | Vitrine Feiras</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body data-page="company">
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <header class="site-header"><nav class="nav container" aria-label="Navegação principal"><a class="brand" href="index.html" aria-label="Vitrine Feiras - página inicial"><span class="brand-mark" aria-hidden="true">v!</span><span class="brand-copy">Vitrine<small>Feiras 2026</small></span></a><button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Abrir menu">☰</button><div class="nav-links" id="nav-links"><a href="index.html">Feiras</a><a href="mapa.html">Mapa</a><a href="conta.html">Minha conta</a><a class="cart-link" href="carrinho.html">Carrinho <span class="cart-count">0</span></a></div></nav></header>
+  <main id="conteudo">
+    <section class="detail-hero"><div class="container"><a class="back-link" id="company-market-link" href="feira.html">← Voltar à feira</a><div class="detail-layout"><div><div class="card-art" id="company-art" style="width:min(14rem, 60vw);min-height:9rem;border-radius:2rem;margin-bottom:1.5rem" aria-hidden="true"><span id="company-initials"></span></div><span class="eyebrow" id="company-promo">Oferta no estande</span><h1 id="company-name">Carregando empresa</h1><p class="hero-copy" id="company-description"></p><div class="hero-actions"><a class="btn" href="#produtos">Ver produtos</a><a class="btn btn-secondary" id="company-map-link" href="mapa.html">Localizar no mapa</a></div></div><dl class="facts"><div class="fact"><dt><small>Estande</small></dt><dd><strong id="company-stand"></strong></dd></div><div class="fact"><dt><small>Segmento</small></dt><dd><strong id="company-segment-value"></strong></dd></div><div class="fact"><dt><small>Atendimento</small></dt><dd><strong id="company-hours"></strong></dd></div><div class="fact"><dt><small>Contato</small></dt><dd><strong id="company-contact"></strong></dd></div></dl></div></div></section>
+    <section class="section section-soft" id="produtos"><div class="container"><div class="section-heading"><h2>Produtos</h2><p>Filtre a vitrine e adicione seus itens favoritos ao carrinho.</p></div>
+      <form class="filters" role="search"><div class="field"><label for="product-search">Buscar produto</label><input class="input" id="product-search" type="search" placeholder="Nome do produto"></div><div class="field"><label for="product-category">Categoria</label><select class="select" id="product-category"><option value="">Todas</option></select></div><div class="field"><label for="product-price">Preço máximo: <span id="price-value"></span></label><input id="product-price" type="range" min="10" step="5"></div><label class="checkbox"><input id="product-discount" type="checkbox"> Somente com desconto</label></form>
+      <div class="card-grid" id="product-list" aria-live="polite"></div>
+    </div></section>
+  </main>
+  <footer class="site-footer"><div class="container footer-content"><span>Vitrine Digital de Feiras — projeto acadêmico com dados fictícios.</span><span>Programação Web 2026.2</span></div></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div><script src="assets/js/data.js"></script><script src="assets/js/app.js"></script>
+</body>
+</html>

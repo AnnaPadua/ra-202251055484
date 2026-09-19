@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mapa da feira com a localização das empresas participantes.">
+  <title>Mapa | Vitrine Feiras</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body data-page="map">
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <header class="site-header"><nav class="nav container" aria-label="Navegação principal"><a class="brand" href="index.html" aria-label="Vitrine Feiras - página inicial"><span class="brand-mark" aria-hidden="true">v!</span><span class="brand-copy">Vitrine<small>Feiras 2026</small></span></a><button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Abrir menu">☰</button><div class="nav-links" id="nav-links"><a href="index.html">Feiras</a><a href="mapa.html" aria-current="page">Mapa</a><a href="conta.html">Minha conta</a><a class="cart-link" href="carrinho.html">Carrinho <span class="cart-count">0</span></a></div></nav></header>
+  <main id="conteudo"><section class="detail-hero"><div class="container"><a class="back-link" id="map-market-link" href="feira.html">← Voltar à feira</a><span class="eyebrow">Mapa do evento</span><h1 id="map-title">Localize cada expositor</h1><p class="hero-copy">Selecione uma empresa na lista para abrir sua vitrine de produtos.</p></div></section>
+    <section class="section section-soft"><div class="container map-layout"><iframe class="map-frame" id="map-frame" title="Mapa OpenStreetMap da feira" loading="lazy"></iframe><aside aria-label="Empresas no mapa"><h2>Expositores</h2><div class="map-list" id="map-companies"></div></aside></div></section>
+  </main>
+  <footer class="site-footer"><div class="container footer-content"><span>Mapa fornecido pelo OpenStreetMap.</span><span>Vitrine Digital de Feiras</span></div></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div><script src="assets/js/data.js"></script><script src="assets/js/app.js"></script>
+</body>
+</html>

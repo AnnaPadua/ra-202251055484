@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Revise seu carrinho e finalize o pedido na Vitrine Feiras.">
+  <title>Carrinho | Vitrine Feiras</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body data-page="cart">
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <header class="site-header"><nav class="nav container" aria-label="Navegação principal"><a class="brand" href="index.html" aria-label="Vitrine Feiras - página inicial"><span class="brand-mark" aria-hidden="true">v!</span><span class="brand-copy">Vitrine<small>Feiras 2026</small></span></a><button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Abrir menu">☰</button><div class="nav-links" id="nav-links"><a href="index.html">Feiras</a><a href="mapa.html">Mapa</a><a href="conta.html">Minha conta</a><a class="cart-link" href="carrinho.html" aria-current="page">Carrinho <span class="cart-count">0</span></a></div></nav></header>
+  <main id="conteudo"><section class="detail-hero"><div class="container"><a class="back-link" href="index.html#feiras">← Continuar comprando</a><span class="eyebrow">Compra segura no evento</span><h1>Seu carrinho</h1><p class="hero-copy">Revise os produtos, aplique seu cupom e preencha os dados para concluir.</p></div></section>
+    <section class="section section-soft"><div class="container checkout-layout"><div><div class="panel"><h2>Itens</h2><div id="cart-items" aria-live="polite"></div></div>
+      <form class="panel" id="checkout-form" style="margin-top:1rem"><h2>Dados do pedido</h2><div class="form-grid">
+        <div class="field"><label for="name">Nome completo</label><input class="input" id="name" name="name" autocomplete="name" required minlength="3"></div>
+        <div class="field"><label for="email">E-mail</label><input class="input" id="email" name="email" type="email" autocomplete="email" required></div>
+        <div class="field"><label for="phone">Telefone</label><input class="input" id="phone" name="phone" type="tel" autocomplete="tel" placeholder="(81) 99999-9999" pattern="\(?[0-9]{2}\)?[ ]?[0-9]{4,5}-?[0-9]{4}" required></div>
+        <div class="field"><label for="delivery">Recebimento</label><select class="select" id="delivery" name="delivery" required><option value="">Selecione</option><option value="pickup">Retirada no estande</option><option value="delivery">Entrega</option></select></div>
+        <div class="field"><label for="payment">Pagamento</label><select class="select" id="payment" name="payment" required><option value="">Selecione</option><option value="pix">Pix</option><option value="credit_card">Cartão de crédito</option><option value="bank_slip">Boleto</option></select></div>
+        <div class="field"><label for="installments">Parcelas</label><select class="select" id="installments" name="installments" required><option value="1">1x</option><option value="2">2x</option><option value="3">3x</option></select></div>
+        <div class="field field-full"><label for="notes">Observações</label><textarea class="textarea" id="notes" name="notes" maxlength="240" placeholder="Informações adicionais para o pedido"></textarea></div>
+        <label class="checkbox field-full"><input type="checkbox" name="terms" required> Confirmo que os dados informados estão corretos.</label>
+      </div><button class="btn" id="finish-order" type="submit">Finalizar pedido</button></form></div>
+      <aside class="panel checkout-summary"><h2>Resumo</h2><div class="field"><label for="coupon">Cupom</label><div class="cluster"><input class="input" id="coupon" type="text" maxlength="20" placeholder="Ex.: FEIRA10" style="flex:1"><button class="btn btn-secondary" id="apply-coupon" type="button">Aplicar</button></div><p class="form-message" id="coupon-message" aria-live="polite"></p></div><div class="summary-line"><span>Subtotal</span><strong id="subtotal">R$ 0,00</strong></div><div class="summary-line"><span>Desconto</span><strong id="discount-total">R$ 0,00</strong></div><div class="summary-line total"><span>Total</span><strong id="grand-total">R$ 0,00</strong></div></aside>
+    </div></section>
+    <dialog class="panel" id="order-dialog"><h2>Pedido confirmado!</h2><p>Seus pontos já foram adicionados. Apresente a confirmação no estande para retirar os produtos.</p><div class="cluster"><a class="btn" href="conta.html">Ver recompensas</a><button class="btn btn-secondary" id="close-dialog" type="button">Fechar</button></div></dialog>
+  </main>
+  <footer class="site-footer"><div class="container footer-content"><span>Vitrine Digital de Feiras — projeto acadêmico com dados fictícios.</span><span>Programação Web 2026.2</span></div></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div><script src="assets/js/data.js"></script><script src="assets/js/app.js"></script>
+</body>
+</html>

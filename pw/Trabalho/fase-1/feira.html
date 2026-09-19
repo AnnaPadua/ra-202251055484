@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Conheça a programação e as empresas participantes da feira.">
+  <title>Feira | Vitrine Feiras</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body data-page="market">
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <header class="event-header" id="event-header">
+    <div class="event-header-inner container">
+      <a class="event-organizer" href="index.html" aria-label="Voltar para todas as feiras">
+        <span>Realização</span>
+        <strong id="event-organizer"></strong>
+      </a>
+      <span class="event-header-divider" aria-hidden="true"></span>
+      <a class="event-brand" id="event-brand-link" href="feira.html">
+        <span class="event-brand-mark" id="event-brand-mark" aria-hidden="true"></span>
+        <span class="event-brand-copy"><strong id="event-brand-title"></strong><small id="event-brand-subtitle"></small></span>
+      </a>
+    </div>
+    <nav class="event-nav" aria-label="Navegação da feira">
+      <div class="event-nav">
+        <a class="event-nav-link event-nav-back" href="index.html">← Vitrine</a>
+        <a class="event-nav-link" href="#programacao">Programação</a>
+        <a class="event-nav-link" href="#empresas">Empresas</a>
+        <a class="event-nav-link" href="#correalizadores">Correalizadores</a>
+        <a class="event-nav-link event-nav-signup" href="conta.html">Inscreva-se</a>
+      </div>
+    </nav>
+  </header>
+  <main id="conteudo">
+    <section class="detail-hero" id="evento">
+      <div class="container">
+        <a class="back-link" href="index.html">← Todas as feiras</a>
+        <div class="detail-layout">
+          <div><span class="eyebrow">Evento em destaque</span><h1 id="market-name">Carregando feira</h1><p class="hero-copy" id="market-description"></p><div class="hero-actions"><a class="btn" id="map-link" href="mapa.html">Explorar mapa</a><a class="btn btn-secondary" href="#empresas">Ver empresas</a></div></div>
+          <div class="event-details" aria-label="Data e localização do evento">
+            <div class="event-detail">
+              <span class="event-detail-icon" aria-hidden="true">▣</span>
+              <div><strong id="market-days"></strong><span id="market-month-year"></span></div>
+            </div>
+            <div class="event-detail">
+              <span class="event-detail-icon event-location-icon" aria-hidden="true">●</span>
+              <div><strong id="market-venue"></strong><span id="market-region"></span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section section-soft" id="programacao">
+      <div class="container">
+        <div class="schedule-heading"><h2>Programação</h2><div class="schedule-days" id="schedule-days" aria-label="Selecionar dia da programação"></div></div>
+        <div class="schedule" id="schedule-list" aria-live="polite"></div>
+      </div>
+    </section>
+    <section class="section" id="empresas">
+      <div class="container"><div class="section-heading"><h2>Empresas</h2><p>Conheça os negócios participantes e encontre produtos especiais.</p></div>
+        <form class="filters" role="search"><div class="field"><label for="company-search">Buscar empresa</label><input class="input" id="company-search" type="search" placeholder="Nome ou descrição"></div><div class="field"><label for="company-segment">Segmento</label><select class="select" id="company-segment"><option value="">Todos os segmentos</option></select></div></form>
+        <div class="card-grid" id="company-list" aria-live="polite"></div>
+      </div>
+    </section>
+    <section class="section section-soft" id="correalizadores"><div class="container"><div class="section-heading"><h2>Apoiam esta feira</h2><p>Parceiros que fortalecem os pequenos negócios e a economia local.</p></div><div class="sponsors" id="sponsor-list"></div></div></section>
+  </main>
+  <footer class="site-footer"><div class="container footer-content"><span>Vitrine Digital de Feiras — projeto acadêmico com dados fictícios.</span><span>Programação Web 2026.2</span></div></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div><script src="assets/js/data.js"></script><script src="assets/js/app.js"></script>
+</body>
+</html>
